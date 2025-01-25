@@ -58,39 +58,8 @@ module.exports = {
       } else {
         return [{
           icon: "fa-solid fa-power-off",
-          text: "Start 48GB RAM + 12GB VRAM",
+          text: "Start",
           href: "start.js",
-          params: {
-            profile: "1"
-          }
-        }, {
-          icon: "fa-solid fa-power-off",
-          text: "Start 48GB RAM + 6GB VRAM",
-          href: "start.js",
-          params: {
-            profile: "2"
-          }
-        }, {
-          icon: "fa-solid fa-power-off",
-          text: "Start 32GB RAM + 12GB VRAM",
-          href: "start.js",
-          params: {
-            profile: "3"
-          }
-        }, {
-          icon: "fa-solid fa-power-off",
-          text: "Start 32GB RAM + 6GB VRAM",
-          href: "start.js",
-          params: {
-            profile: "4"
-          }
-        }, {
-          icon: "fa-solid fa-power-off",
-          text: "Start 24GB RAM + 6GB VRAM",
-          href: "start.js",
-          params: {
-            profile: "5"
-          }
         }, {
           icon: "fa-solid fa-plug",
           text: "Update",
