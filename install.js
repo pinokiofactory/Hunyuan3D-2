@@ -36,6 +36,13 @@ module.exports = {
         ]
       }
     },
+    {
+      when: "{{platform === 'linux'}}",
+      method: "shell.run",
+      params: {
+        message: "conda install -y -c conda-forge gcc<12"
+      }
+    },
     // Edit this step with your custom install commands
     {
       method: "shell.run",
