@@ -41,7 +41,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "conda install -y -c conda-forge gxx<12",
+          "conda install -y -c conda-forge 'gxx<12'",
           "which g++"
         ]
       }
