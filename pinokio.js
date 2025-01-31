@@ -62,6 +62,13 @@ module.exports = {
           text: "Start",
           href: "start.js",
         }, {
+          icon: "fa-solid fa-power-off",
+          text: "Start-t23D",
+          href: "start.js",
+          params: {
+            type: "t23d"
+          }
+        }, {
           icon: "fa-solid fa-plug",
           text: "Update",
           href: "update.js",
@@ -73,6 +80,7 @@ module.exports = {
           icon: "fa-regular fa-circle-xmark",
           text: "Reset",
           href: "reset.js",
+          confirm: "Are you sure you wish to reset this app?"
         }]
       }
     } else {
