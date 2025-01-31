@@ -61,6 +61,8 @@ module.exports = {
           icon: "fa-solid fa-power-off",
           text: "Start",
           href: "start.js",
+          params: {
+            type: "none"
         }, {
           icon: "fa-solid fa-power-off",
           text: "Start-t23D [24GB+vram]",
