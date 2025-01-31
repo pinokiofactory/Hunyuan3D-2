@@ -1,6 +1,14 @@
 module.exports = {
   run: [
     {
+     when: "{{gpu !== 'nvidia'}}",
+     method: "notify",
+     params: {
+       html: "This app requires an NVIDIA GPU."
+     }, 
+      next: null
+    },
+    {
       when: "{{platform === 'win32'}}",
       method: "shell.run",
       params: {
