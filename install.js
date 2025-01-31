@@ -60,6 +60,7 @@ module.exports = {
       when: "{{platform === 'linux'}}",
       method: "shell.run",
       params: {
+        build: true,
         venv: "../../../env",                // Edit this to customize the venv folder path
         env: {
           USE_NINJA: 0,
@@ -76,6 +77,7 @@ module.exports = {
       when: "{{platform !== 'linux'}}",
       method: "shell.run",
       params: {
+        build: true,
         venv: "../../../env",                // Edit this to customize the venv folder path
         env: {
           USE_NINJA: 0,
@@ -91,6 +93,7 @@ module.exports = {
       when: "{{platform === 'linux'}}",
       method: "shell.run",
       params: {
+        build: true,
         venv: "../../../env",                // Edit this to customize the venv folder path
         env: {
           USE_NINJA: 0,
@@ -107,6 +110,7 @@ module.exports = {
       when: "{{platform !== 'linux'}}",
       method: "shell.run",
       params: {
+        build: true,
         venv: "../../../env",                // Edit this to customize the venv folder path
         env: {
           USE_NINJA: 0,
