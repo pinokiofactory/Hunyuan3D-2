@@ -63,7 +63,7 @@ module.exports = {
           href: "start.js",
         }, {
           icon: "fa-solid fa-power-off",
-          text: "Start-t23D",
+          text: "Start-t23D [24GB+vram]",
           href: "start.js",
           params: {
             type: "t23d"
